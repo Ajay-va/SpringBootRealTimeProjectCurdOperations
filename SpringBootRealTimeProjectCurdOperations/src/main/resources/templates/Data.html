@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h3>Welcome to Edit Page</h3>
+<table border="1">
+	<tr>
+		<td>ID</td>
+		<td>NAME</td>
+		<td>COST</td>
+		<td>PHONE</td>
+		<td>OPERATION</td>
+	</tr>
+	<tr th:each="ob:${list}">
+		<td th:text="${ob.custId}"></td>
+		<td th:text="${ob.custName}"></td>
+		<td th:text="${ob.custCost}"></td>
+		<td th:text="${ob.custPhone}"></td>
+		<td>
+			<a th:href="@{/customer/delete/{cid}(cid=${ob.custId})}">DELETE</a>
+			<a th:href="@{/customer/update/{id}(id=${ob.custId})}">EDIT</a>
+		</td>
+	</tr>
+</table>
+</body></html>
