@@ -11,6 +11,7 @@ public class SpringBootRealTimeProjectCurdOperationsApplication {
 
 System.out.println("Hiii ajay");	
 
+System.out.println("Hiii ajay");
 
 }
 
