@@ -8,6 +8,10 @@ public class SpringBootRealTimeProjectCurdOperationsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootRealTimeProjectCurdOperationsApplication.class, args);
-	}
+
+System.out.println("Hiii ajay");	
+
+
+}
 
 }
