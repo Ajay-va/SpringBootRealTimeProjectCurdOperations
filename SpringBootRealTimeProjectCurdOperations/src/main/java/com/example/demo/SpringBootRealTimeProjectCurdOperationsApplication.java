@@ -11,7 +11,15 @@ public class SpringBootRealTimeProjectCurdOperationsApplication {
 
 System.out.println("Hiii ajay");	
 
-System.out.println("Hiii ajay");
+System.out.println("Hiii vijay");
+
+System.out.println("Hiii navya");	
+
+System.out.println("Hiii kumar");
+
+System.out.println("Hiii ramana");	
+
+System.out.println("Hiii teja");
 
 }
 
