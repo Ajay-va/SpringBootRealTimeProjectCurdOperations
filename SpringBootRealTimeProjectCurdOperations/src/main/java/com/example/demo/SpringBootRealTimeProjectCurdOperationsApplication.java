@@ -12,7 +12,9 @@ public class SpringBootRealTimeProjectCurdOperationsApplication {
 
 }
 
-public void m2(){
+System.out.println("Hello ajay");
+	
+	public void m2(){
 
 System.out.println("m2() method calling");
 
