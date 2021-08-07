@@ -10,8 +10,12 @@ public class SpringBootRealTimeProjectCurdOperationsApplication {
 		SpringApplication.run(SpringBootRealTimeProjectCurdOperationsApplication.class, args);
 
 
-
-
 }
 
-}
+public void m1(){
+
+System.out.println("Ajay Varma");
+
+
+
+}}
