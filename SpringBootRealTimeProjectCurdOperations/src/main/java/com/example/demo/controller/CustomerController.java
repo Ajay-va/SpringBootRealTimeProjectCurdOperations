@@ -23,6 +23,9 @@ public class CustomerController {
 	@GetMapping("/register")
 	public String showRegisterPage(Model model,Customer c) {
 		
+
+System.out.println("hello");
+
 		//model.addAttribute("customer", c);
 		return "Register";
 	}
